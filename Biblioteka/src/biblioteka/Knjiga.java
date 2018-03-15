@@ -1,12 +1,18 @@
 package biblioteka;
 
+import java.util.LinkedList;
+
 public class Knjiga {
 
 	private String naslov;
 	private String isbn;
-	private String autor;
+
 	private String izdavac;
 	private int izdanje;
+	
+	LinkedList<Autor> autori ;
+	
+	
 	public String getNaslov() {
 		return naslov;
 	}
