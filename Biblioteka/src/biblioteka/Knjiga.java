@@ -25,12 +25,8 @@ public class Knjiga {
 	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
-	public String getAutor() {
-		return autor;
-	}
-	public void setAutor(String autor) {
-		this.autor = autor;
-	}
+	
+	
 	public String getIzdavac() {
 		return izdavac;
 	}
